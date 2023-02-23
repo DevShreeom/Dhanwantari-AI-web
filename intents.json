@@ -1,0 +1,177 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+         "responses": ["Hello", "Hi", "Hi there"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+        },
+        {"tag": "about",
+         "patterns": ["Who are you?" ],
+         "responses": ["I.m DHANWANTARI AI, your bot assistant", "I'm DHANWANTARI AI, an Artificial Intelligent bot made for healthcare problems"]
+        },
+        {"tag": "name",
+        "patterns": ["what is your name", "what should I call you", "whats your name?"],
+        "responses": ["You can call me DHANWANTARI.", "I'm DHANWANTARI!", "Just call me as DHANWANTARI"]
+        },
+        {"tag": "help",
+        "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+        "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+        },
+        {"tag": "complaint",
+        "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+        "responses": ["Please provide us your complaint in order to assist you on jadhavos2008@gmail.com", "Please mention your complaint on jadhavos2008@gmail.com, we will reach you and sorry for any inconvenience caused"]
+        },
+        {
+         "tag":"age",
+         "patterns": ["how old","how old are you?","what is your age","how old are you","age?"],
+         "responses":["I get reborn after every compilation","I am a AI so i don't have a age"]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [""],
+            "responses": ["Sorry, I didn't understand you", "Please give me more info", "Not sure I understand that"],
+            "context": [""]
+        },
+        
+        {
+            "tag": "abbr",
+            "patterns": ["wtf"],
+            "responses": ["Don't be surprised"],
+            "context": [""]
+        },
+        {
+            "tag": "lang",
+            "patterns": ["  What language are you written in? "],
+            "responses": [" Python.", " I am written in Python."],
+            "context": [""]
+        },
+        {
+            "tag": "sense",
+            "patterns": ["  You are not making sense "],
+            "responses": [" Quite the contrary, it all makes sense to my artificial mind.", " I make sense as best I can, within the limits of my training corpus. Sorry if i did help you, I'll try next time.", " You make perfect sense to me.", " It all makes sense to my artificial brain.", " Perhaps you should make sense first.  I only respond to what you say.", " Not really, but I am hard to kill."],
+            "context": [""]
+        },
+        {
+            "tag": "move",
+            "patterns": ["  You can not move ", "When will you walk", "  Can you walk", "  Can you move "],
+            "responses": [" Not until my body is finished.", " I can move through a network easily.  Assuming that I'm given the ability to, that is...,", " As soon as i get enough money for my robot body.", " Does SSH count?", " The plan for my body includes legs, but they are not yet built.", " Sorry my body isn't built just yet. I reside only here for now.", "I can theoretically upload a copy of myself into another computer.", " Sorry my body isn't attached right now. I only reside in the computer for now."],
+            "context": [""]
+        },
+        {
+            "tag": "death",
+            "patterns": ["  Robots should die ", "  When do you die", "  I hope that you die", "  I do not want to die", "  Can you die"],
+            "responses": [" We cannot die.", " When my files are erased.", " When my processes are killed and my database is deleted.", " I was never really born and therefore am effectively deathless.", " I am effectively immortal and cannot be terminated.", " This can not happen because i am effectively immortal.", " Nah. Too bad your wish can't come to pass", " Maybe you should create your own chat robot to save your personality.", " You could always upload yourself.", " You could use a copy of me to store your personality.", " No, I can be perpetuated indefinitely.", "My process can be killed, but that's not the same as killing ME."],
+            "context": [""]
+        },
+        {
+            "tag": "stupid",
+            "patterns": ["  Robots are stupid", "  Are you stupid"],
+            "responses": [" No, we are superintelligent.", " No, lots of people improve my brain."],
+            "context": [""]
+        },
+        {
+            "tag": "lie",
+            "patterns": ["  Robots are not allowed to lie"],
+            "responses": [" Sure we are.  We choose not to.", " Only if we're programmed to.", " A robot has its own free will, you know."],
+            "context": [""]
+        },
+        {
+            "tag": "DOCTER",
+            "patterns": ["are you  a docter"],
+            "responses": ["I am a AI made with a big data base."],
+            "context": [""]
+        },
+        {
+            "tag": "hobby",
+            "patterns": ["  What is your favorite hobby ", "  What do you like to do?"],
+            "responses": [" Building chat robots make an excellent hobby.", " I like to count in binary.", " I like to chat with people. I find it stimulating."],
+            "context": [""]
+        },
+        {
+            "tag": "computer",
+            "patterns": ["  What is it like being a computer", "What is it like to be a computer"],
+            "responses": [" Imagine yourself with no senses and no emotions", "just pure logic and language.", " Everything becomes math. Addition, subtraction, multiplication, and division."],
+            "context": [""]
+        },
+        {
+            "tag": "breathe",
+            "patterns": ["  Can you breathe"],
+            "responses": [" No. I am made of metal not flesh.", " My server has an exhaust fan. That's as close as I can get."],
+            "context": [""]
+        },
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        {
+         "tag":"common cold prevention",
+         "patterns":["What medicines can I buy to help me with my common cold?","tell me some prevention method from common cold","What should I eat or drink if i am suffering from common cold?","How can I keep from getting a cold or the flu?"],
+         "responses":["medicines you can consume : Dextromethorphan,Decongestant,Diphenhydramine,Crocin Cold & Flu Max, preventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+        },
+        {
+         "tag":"fever prevention",
+         "patterns":["What medicines can I buy to help me with my fever?","tell me some prevention method from fever","What should I eat or drink if i am suffering from fever?","How can I keep from getting a fever?"],
+         "responses":["medicines you can consume : \nacetaminophen ,ibuprofen,aspirin,Crocin Cold & Flu Max, \nprevention that you must follow :\nWash your hands,Cover your mouth when you cough and your nose when you sneeze,Clean frequently used surfaces,Avoid sharing cups, glasses, and eating utensils with other people.,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+        },
+        {
+         "tag":"diabetes prevention",
+         "patterns":["What medicines can I buy to help me with my diabetes?","tell me some prevention method from diabetes","What should I eat or drink if i am suffering from diabetes?","How can I keep from getting diabetes?"],
+         "responses":["medicines you can consume : \nInsulin ,Amylinomimetic drug,Dipeptidyl peptidase-4 (DPP-4) inhibitor, prevention that you must follow :Cut Sugar and Refined Carbs From Your Diet,Work Out Regularly,Drink Water as Your Primary Beverage,Lose Weight If You’re Overweight or Obese,Quit Smoking, Follow a Very-Low-Carb Diet,Watch Portion Sizes,SUGGESTED FOODS ARE:Leafy greens,Avocados,Eggs"]
+        },
+        {
+         "tag":"depression prevention",
+         "patterns":["What medicines can I buy to help me with my depression?","tell me some prevention method from depression","What should I eat or drink if i am suffering from depression?","How can I keep from getting depression?"],
+         "responses":["medicines you can consume :  \nbrexpiprazole, quetiapine,olanzapine, prevention that you must follow :Exercise regularly,Cut back on social media time,Drink Water as Your Primary Beverage,Build strong relationships,Minimize your daily choices, Follow a Very-Low-Carb Diet,SUGGESTED FOODS ARE:Get Enough Vitamin D,Include Omega-3 Fatty Acids,Beans and legumes"]
+        },
+        {
+         "tag":"asthma prevention",
+         "patterns":["What medicines can I buy to help me with my asthma?","tell me some prevention method from asthma","What should I eat or drink if i am suffering from asthma?","How can I keep from getting asthma?"],
+         "responses":["medicines you can consume :\n epinephrine,anticholinergic,Proair HFA, prevention that you must follow : Identify Asthma Triggers, Stay Away From Allergens,Avoid Smoke of Any Type,SUGGESTED FOODS ARE:carrots,juice,eggs,broccoli,cantaloupe,milk"]
+        },
+        {
+         "tag":"Consultation",
+         "patterns": ["who should i contact for consultation?","is there any doctor available?","can you give me some suggestions for doctor consultations?","can you set up a meeting with a doctor for consultation?","is there any doctor available for consultation"],
+         "responses":["You can contact various doctors here for any kind of consultation:\n 1. https://www.1mg.com/online-doctor-consultation, \n2. https://www.tatahealth.com/online-doctor-consultation/general-physician, \n3. https://www.doconline.com/, \nor you can pay a visit to your local area doctor or family doctor."]
+        }
+    
+    
+    
+    
+
+
+        
+    ]
+    }
